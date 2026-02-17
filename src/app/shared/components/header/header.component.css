@@ -1,0 +1,43 @@
+@use '@angular/material' as mat;
+
+mat-toolbar {
+    background-color: #1d709efa;
+    color: #f0ffff;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #f0ffff;
+    cursor: pointer;
+}
+
+button :focus {
+    outline: none;
+}
+
+button:hover {
+    
+    color: #f0f8ff;
+}
+
+
+
+.spacer{
+    flex: 1 1 auto;
+}
+
+/* .logo-wrapper {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+} */
+
+.logo {
+    height: 40px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+}
