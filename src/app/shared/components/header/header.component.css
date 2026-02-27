@@ -1,18 +1,11 @@
-@use '@angular/material' as mat;
-
-mat-toolbar {
-    background-color: #1d709efa;
-    color: #f0ffff;
-}
-
-button {
+/* button {
     background-color: transparent;
     border: none;
     color: #f0ffff;
     cursor: pointer;
 }
 
-button :focus {
+button:focus {
     outline: none;
 }
 
@@ -25,19 +18,56 @@ button:hover {
 
 .spacer{
     flex: 1 1 auto;
-}
-
-/* .logo-wrapper {
-    display: inline-flex;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;
 } */
 
-.logo {
-    height: 40px;
-    width: auto;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 4px;
+
+/* .navbar .p-menubar { 
+    background-color: #282828;
+} */
+
+.p-toolbar{
+    padding: 0.5rem 1rem;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media-icons{
+    display: flex;
+    max-height: 50px;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.tool-bar-nav {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+}
+
+.p-menubar {
+    background: transparent;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-items{
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo{
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
 }

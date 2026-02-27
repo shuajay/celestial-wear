@@ -1,17 +1,60 @@
-<mat-toolbar >
-    <button>
-        <mat-icon>menu</mat-icon>
-    </button>
-    <span class="spacer"></span>
-    <span class="logo-wrapper"><img class="logo" src="logo.png" alt="Celestial Wear Logo"></span>
-    <span class="spacer"></span>
-    <button class="example-icon person-icon">
-        <mat-icon>person</mat-icon>
-    </button>
-    <button>
-        <mat-icon>search</mat-icon>
-    </button>
-    <button>
-        <mat-icon>shopping_cart</mat-icon>
-    </button>
-</mat-toolbar>
+<div>
+    <p-toolbar class="social-media-icons">
+        <ng-template pTemplate="start">
+            <p-button icon="pi pi-facebook" [rounded]="true" [text]="true" class="mr-2" severity="secondary"></p-button>
+            <p-button icon="pi pi-twitter" [rounded]="true" [text]="true" class="mr-2" severity="secondary"></p-button>
+            <p-button icon="pi pi-instagram" [rounded]="true" [text]="true" severity="secondary"></p-button>
+        </ng-template>
+
+        <ng-template pTemplate="center">
+            <span><b>Special Offer:</b> Free Shipping on Orders Over $50!</span>
+        </ng-template>
+        
+        <ng-template pTemplate="end">
+            <p-button class="tool-bar-nav" label="Contact" [rounded]="true" [text]="true" variant="text" severity="secondary"></p-button>
+            <p-button class="tool-bar-nav" label="Cart" [rounded]="true" [text]="true" variant="text" severity="secondary"></p-button>
+            <p-button class="tool-bar-nav" label="Login" [rounded]="true" [text]="true" variant="text" severity="secondary"></p-button>
+        </ng-template>
+
+        
+    </p-toolbar>
+</div>
+
+
+<!-- <div class="card navbar">
+    <p-menubar>
+        <ng-template pTemplate="start">
+            <span class="logo-wrapper"><img src="logo-black.png"  alt="Celestial Wear Logo" class="logo ml-3"></span>
+        </ng-template>
+
+        
+        <ng-template pTemplate="end">
+            <p-menubar [model]="items" class="navigation-menu">
+                <p-button icon="pi pi-cart-arrow-down" iconPos="right" [rounded]="true" [text]="true" variant="text" severity="secondary"/>
+                <p-button icon="pi pi-search" [rounded]="true" [text]="true" severity="secondary"/>
+                <p-button icon="pi pi-user" [rounded]="true" [text]="true" variant="text" severity="secondary"/>
+            </p-menubar>
+        </ng-template>
+    </p-menubar>
+</div> -->
+
+
+<div>
+    <p-toolbar class="menu-items">
+        <ng-template pTemplate="start">
+            <span class="logo-wrapper"><img src="logo-black.png"  alt="Celestial Wear Logo" class="logo ml-3"></span>
+        </ng-template>
+
+        <ng-template pTemplate="center">
+            <p-menubar [model]="items" class="navigation-menu"></p-menubar>
+        </ng-template>
+        
+       <ng-template pTemplate="end">
+                <p-button icon="pi pi-cart-arrow-down" iconPos="right" [rounded]="true" [text]="true" variant="text" severity="secondary"/>
+                <p-button icon="pi pi-search" [rounded]="true" [text]="true" severity="secondary"/>
+                <p-button icon="pi pi-user" [rounded]="true" [text]="true" variant="text" severity="secondary"/>
+        </ng-template>
+
+        
+    </p-toolbar>
+</div>
