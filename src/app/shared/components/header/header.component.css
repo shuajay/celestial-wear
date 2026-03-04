@@ -1,29 +1,11 @@
-/* button {
-    background-color: transparent;
-    border: none;
-    color: #f0ffff;
-    cursor: pointer;
+
+:host {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: aliceblue;
 }
-
-button:focus {
-    outline: none;
-}
-
-button:hover {
-    
-    color: #f0f8ff;
-}
-
-
-
-.spacer{
-    flex: 1 1 auto;
-} */
-
-
-/* .navbar .p-menubar { 
-    background-color: #282828;
-} */
 
 .p-toolbar{
     padding: 0.5rem 1rem;
