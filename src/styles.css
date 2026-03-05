@@ -1,3 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'primeflex/primeflex.css';
 @import 'primeicons/primeicons.css';
+
+:root {
+    /* --- Colors --- */
+    --primary-color: #62748E;
+    --secondary-color: #90A1B9;
+    --secondary-text-color: #f5f5f5;
+    --text-color: #333;
+    --shadow-color: rgba(0, 0, 0, 0.7);
+    --background-color: #f0f8ff;
+    
+    /* --- Fonts --- */
+    --font-primary: 'Libre Baskerville', serif;
+    --font-secondary: 'Source Sans Pro', sans-serif;
+    --font-cursive: cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

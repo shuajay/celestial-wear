@@ -4,7 +4,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: aliceblue;
+    background-color: var(--background-color);
 }
 
 .p-toolbar{
@@ -24,19 +24,19 @@
 }
 
 .tool-bar-nav {
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-primary);
     font-weight: lighter;
 }
 
 .p-menubar {
     background: transparent;
     border: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--font-secondary);
 }
 
 .menu-items{
     font-size: 1.1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--font-secondary);
     border: none;
     align-items: center;
     justify-content: space-between;
