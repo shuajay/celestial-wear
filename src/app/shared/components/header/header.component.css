@@ -8,7 +8,7 @@
 }
 
 .p-toolbar{
-    padding: 0.5rem 1rem;
+    padding: var(--spacing-sm) var(--spacing-md);
     background: transparent;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 .social-media-icons{
     display: flex;
     max-height: 50px;
-    gap: 10px;
+    gap: var(--spacing-sm);
     align-items: center;
     justify-content: space-between;
     background: transparent;
